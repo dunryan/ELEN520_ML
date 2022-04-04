@@ -9,8 +9,12 @@ while i < 3:
     guess = input("Guess an integer from 1 to 20: ")
     if guess == randNum:
         print("You guessed it!")
+        success = True
     else:
         print("Sorry, you did not guess the number.")
+        success = False
         i += 1
+if success == False:
+    print("The correct number was " + str(randNum) + ".")
     
 
