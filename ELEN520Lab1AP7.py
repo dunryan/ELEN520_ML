@@ -30,6 +30,7 @@ while validEntry == False:
     caseTest = input("Input case letter here: ")
     if caseTest in ['a', 'b', 'c', 'd']:
         validEntry = True
-    print("Invalid input, enter case letter, [ex: 'a']\n")
+    else:
+        print("Invalid input, enter case letter, [ex: 'a']\n")
 
 iselement(caseTest)
