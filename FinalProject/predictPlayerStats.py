@@ -31,3 +31,12 @@ for i in range(len(Lines)):
 
 # data = pd.read_csv("playerTest2.csv")
 # data
+
+data = pd.read_csv("playerTest4.csv")
+data
+
+posDict = {1: 'P', 2: 'C', 3: 'FB',4: 'SB', 5: 'TB', 6: 'SS',7: 'LF', 8: 'CF', 9: 'RF'}
+pitchDict = {'C':'CalledStrke','S':'SwingStrike','B':'Ball','F':'Foul','X':'InPlay', ...
+             'T':'foul tip','H': 'HBP','L':'FoulBunt','M': 'missedBunt','P':'pitchOut', ...
+             'N':'balk','1':'pickoff1','2':'pickoff2','3':'pickoff3'}
+playDict = {'S':'single','D':'double','T':'triple','H':'homeRun'}
